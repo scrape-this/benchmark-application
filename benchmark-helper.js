@@ -15,12 +15,12 @@ import { format } from 'date-fns'
  */
 export async function writeResultsToFile (detectorResults, scraperResults) {
   // Date for the folder name
-  const date = format(new Date(), 'yyyy-MM-dd-HH-mm')
+  const date = format(new Date(), 'yyyy-MM-dd-HH-mm-ss')
 
   // Date for the HTML results
-  const [year, month, day, hour, minute] = date.split('-')
+  const [year, month, day, hour, minute, second] = date.split('-')
   const formattedDate = `${year}-${month}-${day}`
-  const formattedTime = `${hour}:${minute}`
+  const formattedTime = `${hour}:${minute}:${second}`
 
   // Create the folder
   const __filename = fileURLToPath(import.meta.url)
