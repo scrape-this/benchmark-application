@@ -451,7 +451,7 @@ export async function writeResultsToFile (detectorResults, scraperResults) {
   <ul class="stats-list">
     <li class="stats-header">
       <span>Name</span>
-      <span title="Formula: Runs where scraper was identified / Total Runs">Detectors Avoided</span>
+      <span title="Formula: Runs where scraper was undeteced / Total Runs">Detectors Avoided</span>
       <span title="Formula: Pages Successfully Scraped / Total Pages available to Scrape">Page Coverage</span>
     </li>`
 
