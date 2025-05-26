@@ -1,0 +1,14 @@
+{
+  "application_version": "0.4.0",
+  "benchmarks": [
+      {
+          "name": "default-benchmark",
+          "scraper_config": "default/scraper.json",
+          "useragent_config": "default/useragent.json",
+          "delay_config": "default/delay.json",
+          "website_config": "default/website.json",
+          "detector_config": "default/detector.json",
+          "debug": false
+      }
+  ]
+}

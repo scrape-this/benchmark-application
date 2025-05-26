@@ -1,0 +1,25 @@
+<h1 id="blogTitle"> Blog </h1>
+<div id="div-to-scrape"><p>Scrape this</p></div>
+<div id="biggerDiv">
+<div id="bigDiv">
+  <% for (const post of viewData.blogPosts) { %>
+    <div class="postPreview">
+      <a class="postTitle" href=<%= post.link %>> <%= post.title %> </a>
+      <p class="date"> <%= post.timestamp %> </p>
+      <p> <%= post.textPreview %> </p>
+    </div>
+  <% } %>
+  <div id="pageNav">
+    <% for (let i = 1; i <= viewData.pages; i++) { %>
+      <% if (i === viewData.currentPage) { %>
+        <button id="currentPageButton"><%= i %></button>
+      <% } else { %>
+        <a href="/?page=<%= i %>"><button><%= i %></button></a>
+      <% } %>
+    <% } %>
+  </div>
+</div>
+<div id="picDiv">
+  <img width=300px src="./img/raffe1.jpg" /> 
+</div>
+</div>

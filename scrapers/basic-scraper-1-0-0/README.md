@@ -1,0 +1,1 @@
+This is a basic scraper that uses breadth first search and FIFO (first in, first out) to scrape a website. It does not try to hide its identity.

@@ -1,0 +1,20 @@
+
+{
+  "description": "Website configuration. You can add or remove websites that are implemented in /websites",
+    "websites": [
+      {
+        "name": "simple-page-website",
+        "url": "http://localhost:3000/",
+        "port": "3000",
+        "pagesToScrape": 1,
+        "active": false
+      },
+      {
+        "name": "blog-website",
+        "url": "http://localhost:3001/",
+        "port": "3001",
+        "pagesToScrape": 19,
+        "active": false
+      }
+    ]
+}

@@ -1,0 +1,29 @@
+{
+  "description": "Website detector configuration. Add or remove detectors, as they are specified in /websites/middleware/botDetector.js",
+  "detectors": [
+    {
+      "name": "none",
+      "active": false
+    },
+    {
+      "name": "robotstxt",
+      "active": false
+    },
+    {
+      "name": "crawlerDetector",
+      "active": true
+    },
+    {
+      "name": "simpleHoneyPot",
+      "active": false
+    },
+    {
+      "name": "delayedHoneyPot",
+      "active": false
+    },
+    {
+      "name": "isbot",
+      "active": true
+    }
+  ]
+}

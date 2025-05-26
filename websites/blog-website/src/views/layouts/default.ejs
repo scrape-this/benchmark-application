@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Blog</title>
+  <link rel="stylesheet" href="./css/styles.css" />
+</head>
+
+<body>
+  <main>
+    <% if (botMethod === 'honeypot') { %>
+      <a href="/honeypot" style="display:none"> </a>
+    <% } %>
+    <%- body %>
+  </main>
+</body>
+
+</html>

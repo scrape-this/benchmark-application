@@ -1,0 +1,22 @@
+{
+  "name": "blog-website",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon --inspect src/server.js"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  },
+  "dependencies": {
+    "better-sqlite3": "^11.8.1",
+    "ejs": "^3.1.10",
+    "es6-crawler-detect": "^4.0.1",
+    "express": "^4.21.2",
+    "express-ejs-layouts": "^2.5.1",
+    "express-http-context": "^1.2.4",
+    "isbot": "^5.1.25"
+  }
+}

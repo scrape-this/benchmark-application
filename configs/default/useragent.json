@@ -1,0 +1,16 @@
+{
+  "description": "Scraper user agent configuration. You can add or remove user agents, and change the user_agent value",
+  "custom_user_agents": [
+    {
+      "name": "none",
+      "description": "Uses the default user agent and do not apply any custom user agent string",
+      "active": true
+    },
+    {
+      "name": "Firefox",
+      "description": "A firefox macos user agent",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:137.0) Gecko/20100101 Firefox/137.0",
+      "active": false
+    }
+  ]
+}

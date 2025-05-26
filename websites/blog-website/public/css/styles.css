@@ -1,0 +1,100 @@
+body {
+  background-color: rgb(255, 255, 255);
+}
+
+h1 {
+  text-align: center;
+  font-size: 42px;
+}
+
+#blogTitle {
+  margin-bottom: 2px;
+}
+
+.postTitle {
+  font-size: 24px;
+  color: black;
+}
+
+.postTitle:hover {
+  color: rgb(10, 16, 132);
+}
+
+.postPreview {
+  background-color: rgb(216, 241, 239);
+  margin-bottom: 15px;
+  padding: 5px;
+  width: 500px;
+}
+
+.date {
+  color: rgb(10, 16, 132);
+}
+
+#bigDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#blogPostBigDiv {
+  margin-top: 50px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+#textDiv p {
+  font-size: 20px;
+}
+
+#textDiv {
+  background-color: rgb(255, 255, 255);
+  padding: 15px;
+}
+
+#currentPageButton {
+  background-color: rgb(1, 14, 72);
+  color: white;
+}
+
+#div-to-scrape {
+  text-align: center;
+  font-size: 10px;
+  margin: 1px;
+}
+
+.lineThrough {
+  text-decoration: line-through;
+}
+
+#postNav{
+  display: flex;
+  width: 80px;
+  justify-content: space-between;
+}
+
+a {
+  color: black;
+}
+
+#biggerDiv {
+  display: flex;
+  justify-content: center;
+}
+
+#picDiv {
+  width: 300px;
+  margin-left: 30px;
+}
+
+#postImg {
+  width: 200px;
+}
+
+#imgDiv {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+  margin-top: 0;
+}

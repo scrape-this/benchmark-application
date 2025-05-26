@@ -1,0 +1,17 @@
+{
+  "description": "Scraper delays configuration. You can add or remove delays, and change the delay_ms value",
+  "delays": [
+    {
+      "name": "short_delay",
+      "description": "A short delay of 1000 ms between requests",
+      "delay_ms": 1000,
+      "active": false
+    },
+    {
+      "name": "none",
+      "description": "No delay between requests",
+      "delay_ms": 0,
+      "active": true
+    }
+  ]
+}

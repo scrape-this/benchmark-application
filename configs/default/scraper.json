@@ -1,0 +1,32 @@
+{
+    "description": "Scraper configuration. Add or remove scrapers that has been implemented in /scrapers, and change the maxRequestsPerRun to crawl more or less pages",
+    "scrapers": [
+        {
+            "name": "Crawlee Scraper 3.13.2",
+            "module": "npx-crawlee-3-13-2",
+            "active": true,
+            "config": {
+                "maxRequestsPerRun": 1000,
+                "elementToScrape": "#div-to-scrape"
+            }
+        },
+        {
+            "name": "Crawlee Scraper 3.0.0",
+            "module": "npx-crawlee-3-0-0",
+            "active": false,
+            "config": {
+                "maxRequestsPerRun": 1000,
+                "elementToScrape": "#div-to-scrape"
+            }
+        },
+        {
+            "name": "Basic Scraper 1.0.0",
+            "module": "basic-scraper-1-0-0",
+            "active": true,
+            "config": {
+                "maxRequestsPerRun": 1000,
+                "elementToScrape": "#div-to-scrape"
+            }
+        }
+    ]
+}

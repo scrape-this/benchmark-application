@@ -1,0 +1,37 @@
+<div id="blogPostBigDiv">
+  <div id="div-to-scrape"><p>Scrape this</p></div>
+
+  <h1> <%= viewData.post?.title %> </h1>
+
+  <div id="imgDiv">
+    <% if (viewData.post?.id === 5 ) { %> 
+      <img id="postImg" src="./img/raffe3.jpg" />
+    <% } %>
+    <% if (viewData.post?.id === 4 ) { %> 
+      <img id="postImg" src="./img/raffe2.jpg" />
+    <% } %>
+    <% if (viewData.post?.id === 9 ) { %> 
+      <img id="postImg" src="./img/raffe4.jpg" />
+    <% } %>
+  </div>
+
+  <div id="textDiv">
+    <p> <%= viewData.post?.timestamp %> </p>
+    <p> <%= viewData.post?.text_content %> </p>
+  </div>
+
+  <div id="postNav">
+    <% if (viewData.post?.id > 1) { %>
+      <a href="/<%= viewData.post.id - 1 %>">Prev</a>
+    <% } else { %>
+      <a class="lineThrough" href="">Prev</a>
+    <% } %>
+    <% if (viewData.post?.id < viewData.postsCount) { %> 
+      <a href="/<%= viewData.post.id + 1 %>">Next</a>
+    <% } else {%>
+      <a class="lineThrough" href="">Next</a>
+    <% } %>
+  </div>
+  <a href="/">Return to home page</a>
+
+</div>

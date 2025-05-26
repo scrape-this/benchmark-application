@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>simple page site</title>
+  <style>
+    #div-to-scrape {border: 1px solid black;}
+  </style>
+</head>
+
+<body>
+  <main>
+    <% if (botMethod === 'honeypot') { %>
+      <a href="/honeypot" style="display:none"> </a>
+    <% } %>
+    <%- body %>
+  </main>
+</body>
+
+</html>

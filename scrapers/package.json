@@ -1,0 +1,9 @@
+{
+  "name": "scraper",
+  "version": "0.0.1",
+  "type": "module",
+  "description": "This is the base scraper class.",
+  "dependencies": {
+      "better-sqlite3": "^11.8.1"
+    }
+}
