@@ -14,7 +14,7 @@
         "url": "http://localhost:3001/",
         "port": "3001",
         "pagesToScrape": 19,
-        "active": false
+        "active": true
       }
     ]
 }
