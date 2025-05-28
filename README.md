@@ -1,4 +1,8 @@
-# Benchmark application
+# Scrape this! Benchmark application
+
+This application was created as a part of a Bachelor thesis in Computer Science, by Aaren Bertilsson and Tobias Aihonen. You can find the full thesis here: [PAPER NOT YET PUBLISHED]
+
+The benchmark application is designed to run experiments on web scrapers against bot detectors on locally ran websites. It is possible to add your own scrapers and detectors, by forking this project and editing the code (see instructions for how to add a scraper or detector below). Feel free to also fork this project and add additional features to the application, as there are many future work possibilties.
 
 ## Scraping ethically
 Web scraping can have many legitimate uses, without any ill intent. It is however always important to concider wether scraping a website's content will do any harm to the website/content owner. In order to scrape a live website ethically, please concider the following things:
