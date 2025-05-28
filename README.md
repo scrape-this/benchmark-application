@@ -4,6 +4,10 @@ This application was created as a part of a Bachelor thesis in Computer Science,
 
 The benchmark application is designed to run experiments on web scrapers against bot detectors on locally ran websites. It is possible to add your own scrapers and detectors, by forking this project and editing the code (see instructions for how to add a scraper or detector below). Feel free to also fork this project and add additional features to the application, as there are many future work possibilties.
 
+[<img src="readme/result_output.png" width="300" alt="click for full size" />](readme/result_output.png)
+
+*Example output from the benchmark application*
+
 ## Scraping ethically
 Web scraping can have many legitimate uses, without any ill intent. It is however always important to concider wether scraping a website's content will do any harm to the website/content owner. In order to scrape a live website ethically, please concider the following things:
 - Ask for consent before scraping a website. There is usually a robots.txt file, which specifies what scraping is allowed and by who.
@@ -18,6 +22,15 @@ Web scraping can have many legitimate uses, without any ill intent. It is howeve
 5. ```npm install```
 6. Optional: change config files if desired
 7. ```npm run start```
+
+## Architecture
+The application is built using Node.js and Express, with a modular architecture that allows for easy addition of new scrapers and bot detectors. The main components are dsiplayed in the architecture diagram below.
+
+[<img src="readme/architecture.png" width="300" alt="click for full size" />](readme/architecture.png)
+
+*An overview of the application architecture*
+
+
 
 ## Adding a new bot detector
 - Add a class for the bot detector under /websites/services
