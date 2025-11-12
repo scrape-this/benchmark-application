@@ -1,6 +1,6 @@
 # Scrape this! Benchmark application
 
-This application was created as a part of a Bachelor thesis in Computer Science, by Aaren Bertilsson and Tobias Aihonen. You can find the full thesis here: [PAPER NOT YET PUBLISHED]
+This application was created as a part of a Bachelor thesis in Computer Science, by Aaren Bertilsson and Tobias Aihonen. You can find the full thesis [here](https://www.diva-portal.org/smash/record.jsf?pid=diva2%3A1970493&dswid=5188)
 
 The benchmark application is designed to run experiments on web scrapers against bot detectors on locally ran websites. It is possible to add your own scrapers and detectors, by forking this project and editing the code (see instructions for how to add a scraper or detector below). Feel free to also fork this project and add additional features to the application, as there are many future work possibilties.
 
